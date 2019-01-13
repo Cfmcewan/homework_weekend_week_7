@@ -1,32 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
 #beerImage {
   height: 300px;
-  margin-left: 80px;
+  margin-left: 30px;;
+  padding-top: 20px;
 }
+
 
 h1 {
   text-align: center;
+  font-family: avenir next,avenir,sans-serifL;
+  font-size: 80px;
+}
 
+h2 {
+  padding-top: 30px;
 }
 
 h4 {
   font-style: italic;
 }
 
+p {
+  width: 800px;
+}
+
 label {
   margin-left: 5%;
+  
+
 }
+
 
 #main-canvas {
   /* border: 3px dotted pink; */
   margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-  margin-top: 5%;
-  padding: 10px;
-  /* border-radius: 10px; */
-
+  margin-top: 3%;
 }
+
+
 
 #beer-list {
   margin-left: 5%;
+  /* border: 2px dotted pink; */
+
+}
+
+.beerDiv {
+  border: 4px dotted #aa709f;
+  padding: 20px;
+  margin-top: 20px;
+  width: 900px;
+  border-radius: 8px;
+  padding-bottom: 20px;
 }

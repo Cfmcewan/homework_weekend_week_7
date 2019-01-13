@@ -5,6 +5,8 @@ const BeerDetailView = function(){
 BeerDetailView.prototype.createBeerDetail = function(beer){
   const beerDiv = document.createElement('div');
 
+  beerDiv.classList.add('beerDiv');
+
   const beerName = document.createElement('h2');
   beerName.textContent = beer.name;
   beerDiv.appendChild(beerName);
