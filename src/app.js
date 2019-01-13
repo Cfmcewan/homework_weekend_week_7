@@ -74,6 +74,12 @@ const drawImage6 = function(){
 }
 img6.addEventListener('load', drawImage6);
 
+// const createRectangle = function (colour, x, y, w, h);
+//   context.fillStyle = colour;
+//   context.fillRect(x, y, w, h);
+//   return createRectangle;
+//
+// const rect1 = createRectangle( '#712361', 490, 100, 70, 70);
 context.fillStyle = '#712361';
 context.fillRect(490, 100, 70, 70);
 
