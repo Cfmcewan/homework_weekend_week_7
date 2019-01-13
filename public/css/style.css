@@ -2,3 +2,31 @@
   height: 300px;
   margin-left: 80px;
 }
+
+h1 {
+  text-align: center;
+
+}
+
+h4 {
+  font-style: italic;
+}
+
+label {
+  margin-left: 5%;
+}
+
+#main-canvas {
+  /* border: 3px dotted pink; */
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-top: 5%;
+  padding: 10px;
+  /* border-radius: 10px; */
+
+}
+
+#beer-list {
+  margin-left: 5%;
+}

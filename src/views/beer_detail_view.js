@@ -5,17 +5,21 @@ const BeerDetailView = function(){
 BeerDetailView.prototype.createBeerDetail = function(beer){
   const beerDiv = document.createElement('div');
 
-  const beerHeader = document.createElement('h2');
-  beerHeader.textContent = `Beers first brewed in ${beer.first_brewed.slice(3)}:`;
-  beerDiv.appendChild(beerHeader);
-
-  const beerName = document.createElement('h3');
+  const beerName = document.createElement('h2');
   beerName.textContent = beer.name;
   beerDiv.appendChild(beerName);
+
+  const beerTagLine = document.createElement('h5');
+  beerTagLine.textContent = beer.tagline;
+  beerDiv.appendChild(beerTagLine);
 
   const description = document.createElement('p');
   description.textContent = beer.description;
   beerDiv.appendChild(description);
+
+  const foodPairingHeader = document.createElement('h3');
+  foodPairingHeader.textContent = `Recommended food pairings with ${beer.name}:`;
+  beerDiv.appendChild(foodPairingHeader);
 
   const foodPairingList = document.createElement('ul');
   beer.food_pairing.forEach((food) => {

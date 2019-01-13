@@ -14,6 +14,7 @@ BeerListView.prototype.bindEvents = function(){
 
 BeerListView.prototype.render = function(beers){
   this.container.innerHTML = '';
+
   beers.forEach((beer) => {
       const beerDetail = new BeerDetailView();
       const beerDiv = beerDetail.createBeerDetail(beer);
