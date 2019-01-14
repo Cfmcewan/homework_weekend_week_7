@@ -21,6 +21,7 @@ SelectView.prototype.populate = function (beers){
   beers.forEach((beer) => {
     if (!uniqueYears.includes(beer.first_brewed.slice(3))){
       uniqueYears.push(beer.first_brewed.slice(3))
+      uniqueYears.sort();
     }
   })
   uniqueYears.forEach((year) => {
